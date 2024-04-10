@@ -1,0 +1,190 @@
+* {
+    font-family: 'Inconsolata', monospace;
+    color: azure;
+}
+body.landing {
+    background-image: url(media/pexels-danny-meneses-943096.jpg);
+    background-size: 100% auto;
+    margin: 0; 
+    padding: 0; 
+}
+body{
+background-color: #10110b;
+}
+.about-text{
+    margin: 25px;
+}
+.header-container {
+    padding: 10px;
+    width: 300px;
+    margin-left: 25px;
+    height: auto;
+    display: flex; 
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.photo1{
+    display: block;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+.heading-text{
+    align-self: center;
+}
+
+.nav-container {
+    align-self: left;
+    width: 300px;
+    margin-top: 25px;
+}
+
+.nav-container ul {
+    list-style: none;
+    padding: 0; 
+    margin: 0; 
+    margin-left: -25px;
+}
+
+.nav-container ul li {
+    padding: 10px;
+}
+
+.nav-container ul li a {
+    text-decoration: none;
+    padding: 10px 15px;
+    position: relative;
+}
+
+.nav-container ul li a::after {
+    content: '';
+}
+
+.nav-container ul li a:hover::after {
+    content: ' >';
+}
+.message-me{
+    align-self: center;
+    display:flex;
+    width: 100%;
+    justify-content: center;
+}
+.message-me a{
+text-decoration: none;
+color: black;
+}
+.cta-button{
+    margin-top: 15px;
+    align-self: center;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.cta-button a{
+    text-decoration: none;
+    color: black;
+}
+
+.centered-heading{
+    justify-content: center;
+    text-align: center;
+}
+.nav-bar{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.nav-bar ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+  
+}
+.nav-bar ul li{
+    margin: 0 10px;
+    display: inline-block;
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    color: azure;
+}
+.nav-bar ul li a::after{
+    content: '';
+}
+.nav-bar ul li a:hover::after{
+    content: ' >';
+}
+.social-buttons{
+    margin-top: 15px;
+    align-self: center;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.portfolio-gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.gallery-item {
+    background-image: url(media/Screenshot\ 2024-04-08\ 135411.png);
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 100%; /* Adjust based on your layout needs */
+    max-width: 300px; /* Max width of each gallery item */
+    height: auto; /* Adjust based on content, or set a specific height */
+}
+
+.website1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px; /* Adjust as necessary */
+    background-size: cover;
+    background-position: center;
+    flex-basis: auto;
+    /* Remove the align-self: auto; it's unnecessary here */
+}
+
+.gallery-label {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust for readability */
+    color: azure;
+    text-align: center;
+    padding: 5px 0;
+}
+
+
+footer{
+    font-size: small;
+    padding-left: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+}
+
+iframe{
+    padding-top: 25px;
+    display: block;
+    margin: 0 auto;
+    justify-content: center;
+}
