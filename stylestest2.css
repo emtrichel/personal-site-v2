@@ -175,6 +175,13 @@ color: black;
     text-align: center;
     padding: 5px 0;
 }
+.gallery-label::after{
+    content: '';
+}
+.gallery-label:hover::after{
+    content: ' >';
+}
+
 
 
 footer{
