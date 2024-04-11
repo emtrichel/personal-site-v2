@@ -13,6 +13,8 @@ body.landing {
 }
 body{
 background-color: #10110b;
+position: relative;
+min-height: 100vh;
 }
 .about-text{
     margin: 25px;
@@ -146,9 +148,9 @@ color: black;
     background-size: cover;
     background-position: center;
     position: relative;
-    width: 100%; /* Adjust based on your layout needs */
-    max-width: 300px; /* Max width of each gallery item */
-    height: auto; /* Adjust based on content, or set a specific height */
+    width: 100%; 
+    max-width: 300px; 
+    height: auto; 
 }
 
 .website1 {
@@ -156,11 +158,11 @@ color: black;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 300px; /* Adjust as necessary */
+    height: 300px; 
     background-size: cover;
     background-position: center;
     flex-basis: auto;
-    /* Remove the align-self: auto; it's unnecessary here */
+    
 }
 
 .gallery-label {
@@ -168,7 +170,7 @@ color: black;
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Adjust for readability */
+    background-color: rgba(0, 0, 0, 0.5); 
     color: azure;
     text-align: center;
     padding: 5px 0;
@@ -176,9 +178,13 @@ color: black;
 
 
 footer{
+    display: flex;
+    flex: auto;
+    flex-shrink: 0;
     font-size: small;
     padding-left: 20px;
-    position: fixed;
+    position: absolute;
+    margin-top: 25px;
     bottom: 0;
     width: 100%;
     height: 50px;
